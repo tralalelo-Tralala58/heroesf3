@@ -1,0 +1,846 @@
+апр. 05, 2025 7:23:47 PM Game.tests.TestSystem setParameters
+INFO: Начало инициализации тестовых данных
+апр. 05, 2025 7:23:47 PM Game.tests.TestSystem setParameters
+INFO: Инициализация тестовых данных завершена
+апр. 05, 2025 7:23:47 PM Game.tests.TestSystem isScoresSaves
+INFO: Запуск теста isScoresSaves
+апр. 05, 2025 7:23:47 PM Game.tests.TestSystem isScoresSaves
+FINE: Чтение из файла
+апр. 05, 2025 7:23:47 PM Game.tests.TestSystem isScoresSaves
+FINE: Сохранение новых данных в файл
+апр. 05, 2025 7:23:47 PM Game.tests.TestSystem isScoresSaves
+FINE: Чтение из файла
+апр. 05, 2025 7:23:47 PM Game.tests.TestSystem isScoresSaves
+INFO: Теста isScoresSaves пройден
+апр. 05, 2025 7:24:25 PM Game.tests.TestSystem setParameters
+INFO: Начало инициализации тестовых данных
+апр. 05, 2025 7:24:26 PM Game.tests.TestSystem setParameters
+INFO: Инициализация тестовых данных завершена
+апр. 05, 2025 7:24:26 PM Game.tests.TestSystem isMapSaving
+INFO: Запуск теста isMapSaving
+апр. 05, 2025 7:24:26 PM Game.tests.TestSystem isMapSaving
+FINE: Герой двигается вправо вниз
+апр. 05, 2025 7:24:26 PM Game.tests.TestSystem isMapSaving
+FINE: Сохранение в файл
+апр. 05, 2025 7:24:26 PM Game.tests.TestSystem isMapSaving
+FINE: Чтение из файла
+апр. 05, 2025 7:24:26 PM Game.tests.TestSystem isMapSaving
+INFO: Теста isMapSaving пройден
+апр. 26, 2025 12:01:46 AM Game.tests.TestSystem setParameters
+INFO: Начало инициализации тестовых данных
+апр. 26, 2025 12:01:46 AM Game.tests.TestSystem setParameters
+INFO: Инициализация тестовых данных завершена
+апр. 26, 2025 12:02:48 AM Game.tests.TestSystem setParameters
+INFO: Начало инициализации тестовых данных
+апр. 26, 2025 12:02:48 AM Game.tests.TestSystem setParameters
+INFO: Инициализация тестовых данных завершена
+апр. 26, 2025 12:02:48 AM Game.tests.TestSystem isHotelWork
+FINE: Герой двигается вправо в отель
+апр. 26, 2025 12:02:54 AM Game.tests.TestSystem isHotelWork
+INFO: Теста isHotelWork пройден
+апр. 26, 2025 12:03:07 AM Game.tests.TestSystem setParameters
+INFO: Начало инициализации тестовых данных
+апр. 26, 2025 12:03:07 AM Game.tests.TestSystem setParameters
+INFO: Инициализация тестовых данных завершена
+апр. 26, 2025 12:03:07 AM Game.tests.TestSystem isHotelWork
+INFO: Запуск теста isHotelWork
+апр. 26, 2025 12:03:07 AM Game.tests.TestSystem isHotelWork
+FINE: Герой двигается вправо в отель
+апр. 26, 2025 12:03:13 AM Game.tests.TestSystem isHotelWork
+INFO: Теста isHotelWork пройден
+апр. 26, 2025 12:05:50 AM Game.tests.TestSystem setParameters
+INFO: Начало инициализации тестовых данных
+апр. 26, 2025 12:05:50 AM Game.tests.TestSystem setParameters
+INFO: Инициализация тестовых данных завершена
+апр. 26, 2025 12:05:50 AM Game.tests.TestSystem isCafeWork
+INFO: Запуск теста isCafeWorkWork
+апр. 26, 2025 12:05:50 AM Game.tests.TestSystem isCafeWork
+FINE: Герой двигается вправо в кафе
+апр. 26, 2025 12:06:00 AM Game.tests.TestSystem isCafeWork
+INFO: Теста isCafeWork пройден
+апр. 26, 2025 12:07:27 AM Game.tests.TestSystem setParameters
+INFO: Начало инициализации тестовых данных
+апр. 26, 2025 12:07:27 AM Game.tests.TestSystem setParameters
+INFO: Инициализация тестовых данных завершена
+апр. 26, 2025 12:07:27 AM Game.tests.TestSystem isSalonWork
+INFO: Запуск теста isSalonWork
+апр. 26, 2025 12:07:27 AM Game.tests.TestSystem isSalonWork
+FINE: Герой двигается вправо в парихмахерскую
+апр. 26, 2025 12:07:37 AM Game.tests.TestSystem isSalonWork
+SEVERE: Тест isSalonWork не пройден
+java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at Game.tests.TestSystem.isSalonWork(TestSystem.java:731)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.contrib.java.lang.system.internal.LogPrintStream$1$1.evaluate(LogPrintStream.java:30)
+	at org.junit.contrib.java.lang.system.internal.PrintStreamHandler$3.evaluate(PrintStreamHandler.java:48)
+	at org.junit.contrib.java.lang.system.internal.LogPrintStream$1.evaluate(LogPrintStream.java:26)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:69)
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater$1.execute(IdeaTestRunner.java:38)
+	at com.intellij.rt.execution.junit.TestsRepeater.repeat(TestsRepeater.java:11)
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:35)
+	at com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:232)
+	at com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:55)
+
+апр. 26, 2025 12:07:50 AM Game.tests.TestSystem setParameters
+INFO: Начало инициализации тестовых данных
+апр. 26, 2025 12:07:50 AM Game.tests.TestSystem setParameters
+INFO: Инициализация тестовых данных завершена
+апр. 26, 2025 12:07:50 AM Game.tests.TestSystem CathedralIsWorking
+INFO: Запуск теста CathedralIsWorking
+апр. 26, 2025 12:07:50 AM Game.tests.TestSystem CathedralIsWorking
+FINE: Покупка собора
+апр. 26, 2025 12:07:50 AM Game.tests.TestSystem CathedralIsWorking
+FINE: Покупка паладинов
+апр. 26, 2025 12:07:50 AM Game.tests.TestSystem CathedralIsWorking
+INFO: Тест CathedralIsWorking пройден
+апр. 26, 2025 12:07:50 AM Game.tests.TestSystem setParameters
+INFO: Начало инициализации тестовых данных
+апр. 26, 2025 12:07:50 AM Game.tests.TestSystem setParameters
+INFO: Инициализация тестовых данных завершена
+апр. 26, 2025 12:07:50 AM Game.tests.TestSystem TestOutOfBounds
+INFO: Запуск теста TestOutOfBounds
+апр. 26, 2025 12:07:50 AM Game.tests.TestSystem TestOutOfBounds
+FINE: Проверка выхода героя за пределы карты
+апр. 26, 2025 12:07:50 AM Game.tests.TestSystem TestOutOfBounds
+FINE: Герой пошел вправо к препятствию
+апр. 26, 2025 12:07:50 AM Game.tests.TestSystem TestOutOfBounds
+FINE: Проверка героя чтобы он не зашел в препятствие
+апр. 26, 2025 12:07:50 AM Game.tests.TestSystem TestOutOfBounds
+INFO: Тест TestOutOfBounds пройден
+апр. 26, 2025 12:07:50 AM Game.tests.TestSystem setParameters
+INFO: Начало инициализации тестовых данных
+апр. 26, 2025 12:07:50 AM Game.tests.TestSystem setParameters
+INFO: Инициализация тестовых данных завершена
+апр. 26, 2025 12:07:50 AM Game.tests.TestSystem StableIsWorking
+INFO: Запуск теста StableIsWorking
+апр. 26, 2025 12:07:50 AM Game.tests.TestSystem StableIsWorking
+FINE: Покупка конюшни
+апр. 26, 2025 12:07:50 AM Game.tests.TestSystem StableIsWorking
+INFO: Тест StableIsWorking пройден
+апр. 26, 2025 12:07:50 AM Game.tests.TestSystem setParameters
+INFO: Начало инициализации тестовых данных
+апр. 26, 2025 12:07:50 AM Game.tests.TestSystem setParameters
+INFO: Инициализация тестовых данных завершена
+апр. 26, 2025 12:07:50 AM Game.tests.TestSystem TestMovingCounts
+INFO: Запуск теста TestMovingCounts
+апр. 26, 2025 12:07:51 AM Game.tests.TestSystem TestMovingCounts
+FINE: Герой походил вправо
+апр. 26, 2025 12:07:51 AM Game.tests.TestSystem TestMovingCounts
+FINE: Герой походил вправо вниз
+апр. 26, 2025 12:07:52 AM Game.tests.TestSystem TestMovingCounts
+INFO: Тест TestMovingCounts пройден
+апр. 26, 2025 12:07:52 AM Game.tests.TestSystem setParameters
+INFO: Начало инициализации тестовых данных
+апр. 26, 2025 12:07:52 AM Game.tests.TestSystem setParameters
+INFO: Инициализация тестовых данных завершена
+апр. 26, 2025 12:07:52 AM Game.tests.TestSystem readTextFromStandardInputStream
+INFO: Запуск теста readTextFromStandardInputStream
+апр. 26, 2025 12:07:52 AM Game.tests.TestSystem readTextFromStandardInputStream
+INFO: Тест readTextFromStandardInputStream завершен успешно
+апр. 26, 2025 12:07:52 AM Game.tests.TestSystem setParameters
+INFO: Начало инициализации тестовых данных
+апр. 26, 2025 12:07:52 AM Game.tests.TestSystem setParameters
+INFO: Инициализация тестовых данных завершена
+апр. 26, 2025 12:07:52 AM Game.tests.TestSystem isCafeWork
+INFO: Запуск теста isCafeWorkWork
+апр. 26, 2025 12:07:52 AM Game.tests.TestSystem isCafeWork
+FINE: Герой двигается вправо в кафе
+апр. 26, 2025 12:08:01 AM Game.tests.TestSystem isCafeWork
+INFO: Теста isCafeWork пройден
+апр. 26, 2025 12:08:01 AM Game.tests.TestSystem setParameters
+INFO: Начало инициализации тестовых данных
+апр. 26, 2025 12:08:01 AM Game.tests.TestSystem setParameters
+INFO: Инициализация тестовых данных завершена
+апр. 26, 2025 12:08:01 AM Game.tests.TestSystem TestPlaceAllUnits
+INFO: Запуск теста TestPlaceAllUnits
+апр. 26, 2025 12:08:01 AM Game.tests.TestSystem TestPlaceAllUnits
+FINE: Генерация карты боя с юнитами
+апр. 26, 2025 12:08:02 AM Game.tests.TestSystem TestPlaceAllUnits
+INFO: Тест TestPlaceAllUnits пройден
+апр. 26, 2025 12:08:02 AM Game.tests.TestSystem setParameters
+INFO: Начало инициализации тестовых данных
+апр. 26, 2025 12:08:02 AM Game.tests.TestSystem setParameters
+INFO: Инициализация тестовых данных завершена
+апр. 26, 2025 12:08:02 AM Game.tests.TestSystem TestIsBuyingHouse
+INFO: Запуск теста TestIsBuyingHouse
+апр. 26, 2025 12:08:02 AM Game.tests.TestSystem TestIsBuyingHouse
+FINE: Покупка поста для копейщика
+апр. 26, 2025 12:08:02 AM Game.tests.TestSystem TestIsBuyingHouse
+INFO: Тест TestIsBuyingHouse пройден
+апр. 26, 2025 12:08:02 AM Game.tests.TestSystem setParameters
+INFO: Начало инициализации тестовых данных
+апр. 26, 2025 12:08:02 AM Game.tests.TestSystem setParameters
+INFO: Инициализация тестовых данных завершена
+апр. 26, 2025 12:08:02 AM Game.tests.TestSystem TestIsBuyingUnits
+INFO: Запуск теста TestIsBuyingUnits
+апр. 26, 2025 12:08:02 AM Game.tests.TestSystem TestIsBuyingUnits
+FINE: Покупка поста для копейщика
+апр. 26, 2025 12:08:02 AM Game.tests.TestSystem TestIsBuyingUnits
+FINE: Покупка юнитов копейщиков
+апр. 26, 2025 12:08:02 AM Game.tests.TestSystem TestIsBuyingUnits
+INFO: Тест TestIsBuyingUnits пройден
+апр. 26, 2025 12:08:02 AM Game.tests.TestSystem setParameters
+INFO: Начало инициализации тестовых данных
+апр. 26, 2025 12:08:02 AM Game.tests.TestSystem setParameters
+INFO: Инициализация тестовых данных завершена
+апр. 26, 2025 12:08:02 AM Game.tests.TestSystem TestOutPut
+INFO: Запуск теста TestOutPut
+апр. 26, 2025 12:08:02 AM Game.tests.TestSystem TestOutPut
+FINE: Проверка вывода: Вы врезались в препятствие
+
+апр. 26, 2025 12:08:02 AM Game.tests.TestSystem TestOutPut
+INFO: Тест TestOutPut завершен успешно
+апр. 26, 2025 12:08:02 AM Game.tests.TestSystem setParameters
+INFO: Начало инициализации тестовых данных
+апр. 26, 2025 12:08:02 AM Game.tests.TestSystem setParameters
+INFO: Инициализация тестовых данных завершена
+апр. 26, 2025 12:08:02 AM Game.tests.TestSystem TestLogicHero
+INFO: Запуск теста TestLogicHero
+апр. 26, 2025 12:08:02 AM Game.tests.TestSystem TestLogicHero
+FINE: Герой заходит в здание
+апр. 26, 2025 12:08:02 AM Game.tests.TestSystem TestLogicHero
+INFO: Тест TestLogicHero пройден
+апр. 26, 2025 12:08:02 AM Game.tests.TestSystem setParameters
+INFO: Начало инициализации тестовых данных
+апр. 26, 2025 12:08:02 AM Game.tests.TestSystem setParameters
+INFO: Инициализация тестовых данных завершена
+апр. 26, 2025 12:08:02 AM Game.tests.TestSystem isHeroDie
+INFO: Запуск теста isHeroDie
+апр. 26, 2025 12:08:03 AM Game.tests.TestSystem isHeroDie
+INFO: Теста isHeroDie пройден
+апр. 26, 2025 12:08:03 AM Game.tests.TestSystem setParameters
+INFO: Начало инициализации тестовых данных
+апр. 26, 2025 12:08:03 AM Game.tests.TestSystem setParameters
+INFO: Инициализация тестовых данных завершена
+апр. 26, 2025 12:08:03 AM Game.tests.TestSystem friendlyFire
+INFO: Запуск теста friendlyFire
+апр. 26, 2025 12:08:03 AM Game.tests.TestSystem friendlyFire
+FINE: Генерация карты боя с юнитами
+апр. 26, 2025 12:08:04 AM Game.tests.TestSystem friendlyFire
+FINE: Юнит атакует своего юнита
+апр. 26, 2025 12:08:04 AM Game.tests.TestSystem friendlyFire
+INFO: Теста friendlyFire пройден
+апр. 26, 2025 12:08:04 AM Game.tests.TestSystem setParameters
+INFO: Начало инициализации тестовых данных
+апр. 26, 2025 12:08:04 AM Game.tests.TestSystem setParameters
+INFO: Инициализация тестовых данных завершена
+апр. 26, 2025 12:08:04 AM Game.tests.TestSystem TestRangeUnit
+INFO: Запуск теста TestRangeUnit
+апр. 26, 2025 12:08:04 AM Game.tests.TestSystem TestRangeUnit
+FINE: Генерация карты боя с юнитами
+апр. 26, 2025 12:08:04 AM Game.tests.TestSystem TestRangeUnit
+INFO: Теста TestRangeUnit пройден
+апр. 26, 2025 12:08:04 AM Game.tests.TestSystem setParameters
+INFO: Начало инициализации тестовых данных
+апр. 26, 2025 12:08:04 AM Game.tests.TestSystem setParameters
+INFO: Инициализация тестовых данных завершена
+апр. 26, 2025 12:08:04 AM Game.tests.TestSystem isHotelWork
+INFO: Запуск теста isHotelWork
+апр. 26, 2025 12:08:04 AM Game.tests.TestSystem isHotelWork
+FINE: Герой двигается вправо в отель
+апр. 26, 2025 12:08:10 AM Game.tests.TestSystem isHotelWork
+INFO: Теста isHotelWork пройден
+апр. 26, 2025 12:08:10 AM Game.tests.TestSystem setParameters
+INFO: Начало инициализации тестовых данных
+апр. 26, 2025 12:08:10 AM Game.tests.TestSystem setParameters
+INFO: Инициализация тестовых данных завершена
+апр. 26, 2025 12:08:10 AM Game.tests.TestSystem AllTowersIsYours
+INFO: Запуск теста AllTowersIsYours
+апр. 26, 2025 12:08:10 AM Game.tests.TestSystem AllTowersIsYours
+FINE: Проверка условия победы
+апр. 26, 2025 12:08:10 AM Game.tests.TestSystem AllTowersIsYours
+INFO: Тест AllTowersIsYours завершен успешно
+апр. 26, 2025 12:08:10 AM Game.tests.TestSystem setParameters
+INFO: Начало инициализации тестовых данных
+апр. 26, 2025 12:08:10 AM Game.tests.TestSystem setParameters
+INFO: Инициализация тестовых данных завершена
+апр. 26, 2025 12:08:10 AM Game.tests.TestSystem isScoresSaves
+INFO: Запуск теста isScoresSaves
+апр. 26, 2025 12:08:10 AM Game.tests.TestSystem isScoresSaves
+FINE: Чтение из файла
+апр. 26, 2025 12:08:10 AM Game.tests.TestSystem isScoresSaves
+FINE: Сохранение новых данных в файл
+апр. 26, 2025 12:08:10 AM Game.tests.TestSystem isScoresSaves
+FINE: Чтение из файла
+апр. 26, 2025 12:08:10 AM Game.tests.TestSystem isScoresSaves
+INFO: Теста isScoresSaves пройден
+апр. 26, 2025 12:08:10 AM Game.tests.TestSystem setParameters
+INFO: Начало инициализации тестовых данных
+апр. 26, 2025 12:08:10 AM Game.tests.TestSystem setParameters
+INFO: Инициализация тестовых данных завершена
+апр. 26, 2025 12:08:10 AM Game.tests.TestSystem IsUnitDie
+INFO: Запуск теста IsUnitDie
+апр. 26, 2025 12:08:10 AM Game.tests.TestSystem IsUnitDie
+FINE: Генерация карты боя с юнитами
+апр. 26, 2025 12:08:11 AM Game.tests.TestSystem IsUnitDie
+FINE: Юнит атакует чужого юнита
+апр. 26, 2025 12:08:11 AM Game.tests.TestSystem IsUnitDie
+INFO: Тест IsUnitDie пройден
+апр. 26, 2025 12:08:11 AM Game.tests.TestSystem setParameters
+INFO: Начало инициализации тестовых данных
+апр. 26, 2025 12:08:11 AM Game.tests.TestSystem setParameters
+INFO: Инициализация тестовых данных завершена
+апр. 26, 2025 12:08:11 AM Game.tests.TestSystem isSalonWork
+INFO: Запуск теста isSalonWork
+апр. 26, 2025 12:08:11 AM Game.tests.TestSystem isSalonWork
+FINE: Герой двигается вправо в парихмахерскую
+апр. 26, 2025 12:08:20 AM Game.tests.TestSystem isSalonWork
+SEVERE: Тест isSalonWork не пройден
+java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at Game.tests.TestSystem.isSalonWork(TestSystem.java:731)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.contrib.java.lang.system.internal.LogPrintStream$1$1.evaluate(LogPrintStream.java:30)
+	at org.junit.contrib.java.lang.system.internal.PrintStreamHandler$3.evaluate(PrintStreamHandler.java:48)
+	at org.junit.contrib.java.lang.system.internal.LogPrintStream$1.evaluate(LogPrintStream.java:26)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:69)
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater$1.execute(IdeaTestRunner.java:38)
+	at com.intellij.rt.execution.junit.TestsRepeater.repeat(TestsRepeater.java:11)
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:35)
+	at com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:232)
+	at com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:55)
+
+апр. 26, 2025 12:08:20 AM Game.tests.TestSystem setParameters
+INFO: Начало инициализации тестовых данных
+апр. 26, 2025 12:08:20 AM Game.tests.TestSystem setParameters
+INFO: Инициализация тестовых данных завершена
+апр. 26, 2025 12:08:20 AM Game.tests.TestSystem TestIsBonusHuntDamagePickUP
+INFO: Запуск теста TestIsBonusHuntDamagePickUP
+апр. 26, 2025 12:08:20 AM Game.tests.TestSystem TestIsBonusHuntDamagePickUP
+FINE: Герой подбирает кабана
+апр. 26, 2025 12:08:21 AM Game.tests.TestSystem TestIsBonusHuntDamagePickUP
+INFO: Тест TestIsBonusHuntDamagePickUP пройден
+апр. 26, 2025 12:08:21 AM Game.tests.TestSystem setParameters
+INFO: Начало инициализации тестовых данных
+апр. 26, 2025 12:08:21 AM Game.tests.TestSystem setParameters
+INFO: Инициализация тестовых данных завершена
+апр. 26, 2025 12:08:21 AM Game.tests.TestSystem isBotCorrectMoving
+INFO: Запуск теста isBotCorrectMoving
+апр. 26, 2025 12:08:21 AM Game.tests.TestSystem isBotCorrectMoving
+FINE: Генерация карты боя с юнитами
+апр. 26, 2025 12:08:21 AM Game.tests.TestSystem isBotCorrectMoving
+FINE: Ход врага
+апр. 26, 2025 12:08:22 AM Game.tests.TestSystem isBotCorrectMoving
+INFO: Теста isBotCorrectMoving пройден
+апр. 26, 2025 12:08:22 AM Game.tests.TestSystem setParameters
+INFO: Начало инициализации тестовых данных
+апр. 26, 2025 12:08:22 AM Game.tests.TestSystem setParameters
+INFO: Инициализация тестовых данных завершена
+апр. 26, 2025 12:08:22 AM Game.tests.TestSystem AllTowersIsComp
+INFO: Запуск теста AllTowersIsComp
+апр. 26, 2025 12:08:22 AM Game.tests.TestSystem AllTowersIsComp
+FINE: Проверка условия поражения
+апр. 26, 2025 12:08:22 AM Game.tests.TestSystem AllTowersIsComp
+INFO: Тест AllTowersIsComp завершен успешно
+апр. 26, 2025 12:08:22 AM Game.tests.TestSystem setParameters
+INFO: Начало инициализации тестовых данных
+апр. 26, 2025 12:08:22 AM Game.tests.TestSystem setParameters
+INFO: Инициализация тестовых данных завершена
+апр. 26, 2025 12:08:22 AM Game.tests.TestSystem TestIsBonusHuntSpeedPickUP
+INFO: Запуск теста TestIsBonusHuntSpeedPickUP
+апр. 26, 2025 12:08:22 AM Game.tests.TestSystem TestIsBonusHuntSpeedPickUP
+FINE: Герой подбирает подковы
+апр. 26, 2025 12:08:22 AM Game.tests.TestSystem TestIsBonusHuntSpeedPickUP
+INFO: Тест TestIsBonusHuntSpeedPickUP пройден
+апр. 26, 2025 12:08:22 AM Game.tests.TestSystem setParameters
+INFO: Начало инициализации тестовых данных
+апр. 26, 2025 12:08:22 AM Game.tests.TestSystem setParameters
+INFO: Инициализация тестовых данных завершена
+апр. 26, 2025 12:08:22 AM Game.tests.TestSystem isMapSaving
+INFO: Запуск теста isMapSaving
+апр. 26, 2025 12:08:22 AM Game.tests.TestSystem isMapSaving
+FINE: Герой двигается вправо вниз
+апр. 26, 2025 12:08:23 AM Game.tests.TestSystem isMapSaving
+FINE: Сохранение в файл
+апр. 26, 2025 12:08:23 AM Game.tests.TestSystem isMapSaving
+FINE: Чтение из файла
+апр. 26, 2025 12:08:23 AM Game.tests.TestSystem isMapSaving
+INFO: Теста isMapSaving пройден
+апр. 26, 2025 12:08:23 AM Game.tests.TestSystem setParameters
+INFO: Начало инициализации тестовых данных
+апр. 26, 2025 12:08:23 AM Game.tests.TestSystem setParameters
+INFO: Инициализация тестовых данных завершена
+апр. 26, 2025 12:08:23 AM Game.tests.TestSystem TestIsBonusHuntGoldPickUP
+INFO: Запуск теста TestIsBonusHuntGoldPickUP
+апр. 26, 2025 12:08:23 AM Game.tests.TestSystem TestIsBonusHuntGoldPickUP
+FINE: Герой подбирает монеты
+апр. 26, 2025 12:08:23 AM Game.tests.TestSystem TestIsBonusHuntGoldPickUP
+INFO: Тест TestIsBonusHuntGoldPickUP пройден
+апр. 26, 2025 12:12:00 AM Game.tests.TestSystem setParameters
+INFO: Начало инициализации тестовых данных
+апр. 26, 2025 12:12:00 AM Game.tests.TestSystem setParameters
+INFO: Инициализация тестовых данных завершена
+апр. 26, 2025 12:12:00 AM Game.tests.TestSystem CathedralIsWorking
+INFO: Запуск теста CathedralIsWorking
+апр. 26, 2025 12:12:00 AM Game.tests.TestSystem CathedralIsWorking
+FINE: Покупка собора
+апр. 26, 2025 12:12:00 AM Game.tests.TestSystem CathedralIsWorking
+FINE: Покупка паладинов
+апр. 26, 2025 12:12:00 AM Game.tests.TestSystem CathedralIsWorking
+INFO: Тест CathedralIsWorking пройден
+апр. 26, 2025 12:12:00 AM Game.tests.TestSystem setParameters
+INFO: Начало инициализации тестовых данных
+апр. 26, 2025 12:12:00 AM Game.tests.TestSystem setParameters
+INFO: Инициализация тестовых данных завершена
+апр. 26, 2025 12:12:00 AM Game.tests.TestSystem TestOutOfBounds
+INFO: Запуск теста TestOutOfBounds
+апр. 26, 2025 12:12:00 AM Game.tests.TestSystem TestOutOfBounds
+FINE: Проверка выхода героя за пределы карты
+апр. 26, 2025 12:12:00 AM Game.tests.TestSystem TestOutOfBounds
+FINE: Герой пошел вправо к препятствию
+апр. 26, 2025 12:12:00 AM Game.tests.TestSystem TestOutOfBounds
+FINE: Проверка героя чтобы он не зашел в препятствие
+апр. 26, 2025 12:12:00 AM Game.tests.TestSystem TestOutOfBounds
+INFO: Тест TestOutOfBounds пройден
+апр. 26, 2025 12:12:00 AM Game.tests.TestSystem setParameters
+INFO: Начало инициализации тестовых данных
+апр. 26, 2025 12:12:00 AM Game.tests.TestSystem setParameters
+INFO: Инициализация тестовых данных завершена
+апр. 26, 2025 12:12:00 AM Game.tests.TestSystem StableIsWorking
+INFO: Запуск теста StableIsWorking
+апр. 26, 2025 12:12:00 AM Game.tests.TestSystem StableIsWorking
+FINE: Покупка конюшни
+апр. 26, 2025 12:12:00 AM Game.tests.TestSystem StableIsWorking
+INFO: Тест StableIsWorking пройден
+апр. 26, 2025 12:12:00 AM Game.tests.TestSystem setParameters
+INFO: Начало инициализации тестовых данных
+апр. 26, 2025 12:12:00 AM Game.tests.TestSystem setParameters
+INFO: Инициализация тестовых данных завершена
+апр. 26, 2025 12:12:00 AM Game.tests.TestSystem TestMovingCounts
+INFO: Запуск теста TestMovingCounts
+апр. 26, 2025 12:12:01 AM Game.tests.TestSystem TestMovingCounts
+FINE: Герой походил вправо
+апр. 26, 2025 12:12:01 AM Game.tests.TestSystem TestMovingCounts
+FINE: Герой походил вправо вниз
+апр. 26, 2025 12:12:02 AM Game.tests.TestSystem TestMovingCounts
+INFO: Тест TestMovingCounts пройден
+апр. 26, 2025 12:12:02 AM Game.tests.TestSystem setParameters
+INFO: Начало инициализации тестовых данных
+апр. 26, 2025 12:12:02 AM Game.tests.TestSystem setParameters
+INFO: Инициализация тестовых данных завершена
+апр. 26, 2025 12:12:02 AM Game.tests.TestSystem readTextFromStandardInputStream
+INFO: Запуск теста readTextFromStandardInputStream
+апр. 26, 2025 12:12:02 AM Game.tests.TestSystem readTextFromStandardInputStream
+INFO: Тест readTextFromStandardInputStream завершен успешно
+апр. 26, 2025 12:12:02 AM Game.tests.TestSystem setParameters
+INFO: Начало инициализации тестовых данных
+апр. 26, 2025 12:12:02 AM Game.tests.TestSystem setParameters
+INFO: Инициализация тестовых данных завершена
+апр. 26, 2025 12:12:02 AM Game.tests.TestSystem isCafeWork
+INFO: Запуск теста isCafeWorkWork
+апр. 26, 2025 12:12:02 AM Game.tests.TestSystem isCafeWork
+FINE: Герой двигается вправо в кафе
+апр. 26, 2025 12:12:10 AM Game.tests.TestSystem setParameters
+INFO: Начало инициализации тестовых данных
+апр. 26, 2025 12:12:10 AM Game.tests.TestSystem setParameters
+INFO: Инициализация тестовых данных завершена
+апр. 26, 2025 12:12:10 AM Game.tests.TestSystem isSalonWork
+INFO: Запуск теста isSalonWork
+апр. 26, 2025 12:12:10 AM Game.tests.TestSystem isSalonWork
+FINE: Герой двигается вправо в парихмахерскую
+апр. 26, 2025 12:12:19 AM Game.tests.TestSystem isSalonWork
+SEVERE: Тест isSalonWork не пройден
+java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at Game.tests.TestSystem.isSalonWork(TestSystem.java:731)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.contrib.java.lang.system.internal.LogPrintStream$1$1.evaluate(LogPrintStream.java:30)
+	at org.junit.contrib.java.lang.system.internal.PrintStreamHandler$3.evaluate(PrintStreamHandler.java:48)
+	at org.junit.contrib.java.lang.system.internal.LogPrintStream$1.evaluate(LogPrintStream.java:26)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:69)
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater$1.execute(IdeaTestRunner.java:38)
+	at com.intellij.rt.execution.junit.TestsRepeater.repeat(TestsRepeater.java:11)
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:35)
+	at com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:232)
+	at com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:55)
+
+апр. 26, 2025 12:12:43 AM Game.tests.TestSystem setParameters
+INFO: Начало инициализации тестовых данных
+апр. 26, 2025 12:12:43 AM Game.tests.TestSystem setParameters
+INFO: Инициализация тестовых данных завершена
+апр. 26, 2025 12:12:43 AM Game.tests.TestSystem isSalonWork
+INFO: Запуск теста isSalonWork
+апр. 26, 2025 12:12:43 AM Game.tests.TestSystem isSalonWork
+FINE: Герой двигается вправо в парихмахерскую
+апр. 26, 2025 12:12:53 AM Game.tests.TestSystem isSalonWork
+SEVERE: Тест isSalonWork не пройден
+java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at Game.tests.TestSystem.isSalonWork(TestSystem.java:731)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.contrib.java.lang.system.internal.LogPrintStream$1$1.evaluate(LogPrintStream.java:30)
+	at org.junit.contrib.java.lang.system.internal.PrintStreamHandler$3.evaluate(PrintStreamHandler.java:48)
+	at org.junit.contrib.java.lang.system.internal.LogPrintStream$1.evaluate(LogPrintStream.java:26)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:69)
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater$1.execute(IdeaTestRunner.java:38)
+	at com.intellij.rt.execution.junit.TestsRepeater.repeat(TestsRepeater.java:11)
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:35)
+	at com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:232)
+	at com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:55)
+
+апр. 26, 2025 12:13:21 AM Game.tests.TestSystem setParameters
+INFO: Начало инициализации тестовых данных
+апр. 26, 2025 12:13:21 AM Game.tests.TestSystem setParameters
+INFO: Инициализация тестовых данных завершена
+апр. 26, 2025 12:13:21 AM Game.tests.TestSystem isSalonWork
+INFO: Запуск теста isSalonWork
+апр. 26, 2025 12:13:21 AM Game.tests.TestSystem isSalonWork
+FINE: Герой двигается вправо в парихмахерскую
+апр. 26, 2025 12:13:30 AM Game.tests.TestSystem isSalonWork
+INFO: Теста isSalonWork пройден
+апр. 26, 2025 12:13:41 AM Game.tests.TestSystem setParameters
+INFO: Начало инициализации тестовых данных
+апр. 26, 2025 12:13:42 AM Game.tests.TestSystem setParameters
+INFO: Инициализация тестовых данных завершена
+апр. 26, 2025 12:13:42 AM Game.tests.TestSystem CathedralIsWorking
+INFO: Запуск теста CathedralIsWorking
+апр. 26, 2025 12:13:42 AM Game.tests.TestSystem CathedralIsWorking
+FINE: Покупка собора
+апр. 26, 2025 12:13:42 AM Game.tests.TestSystem CathedralIsWorking
+FINE: Покупка паладинов
+апр. 26, 2025 12:13:42 AM Game.tests.TestSystem CathedralIsWorking
+INFO: Тест CathedralIsWorking пройден
+апр. 26, 2025 12:13:42 AM Game.tests.TestSystem setParameters
+INFO: Начало инициализации тестовых данных
+апр. 26, 2025 12:13:42 AM Game.tests.TestSystem setParameters
+INFO: Инициализация тестовых данных завершена
+апр. 26, 2025 12:13:42 AM Game.tests.TestSystem TestOutOfBounds
+INFO: Запуск теста TestOutOfBounds
+апр. 26, 2025 12:13:42 AM Game.tests.TestSystem TestOutOfBounds
+FINE: Проверка выхода героя за пределы карты
+апр. 26, 2025 12:13:42 AM Game.tests.TestSystem TestOutOfBounds
+FINE: Герой пошел вправо к препятствию
+апр. 26, 2025 12:13:42 AM Game.tests.TestSystem TestOutOfBounds
+FINE: Проверка героя чтобы он не зашел в препятствие
+апр. 26, 2025 12:13:42 AM Game.tests.TestSystem TestOutOfBounds
+INFO: Тест TestOutOfBounds пройден
+апр. 26, 2025 12:13:42 AM Game.tests.TestSystem setParameters
+INFO: Начало инициализации тестовых данных
+апр. 26, 2025 12:13:42 AM Game.tests.TestSystem setParameters
+INFO: Инициализация тестовых данных завершена
+апр. 26, 2025 12:13:42 AM Game.tests.TestSystem StableIsWorking
+INFO: Запуск теста StableIsWorking
+апр. 26, 2025 12:13:42 AM Game.tests.TestSystem StableIsWorking
+FINE: Покупка конюшни
+апр. 26, 2025 12:13:42 AM Game.tests.TestSystem StableIsWorking
+INFO: Тест StableIsWorking пройден
+апр. 26, 2025 12:13:42 AM Game.tests.TestSystem setParameters
+INFO: Начало инициализации тестовых данных
+апр. 26, 2025 12:13:42 AM Game.tests.TestSystem setParameters
+INFO: Инициализация тестовых данных завершена
+апр. 26, 2025 12:13:42 AM Game.tests.TestSystem TestMovingCounts
+INFO: Запуск теста TestMovingCounts
+апр. 26, 2025 12:13:42 AM Game.tests.TestSystem TestMovingCounts
+FINE: Герой походил вправо
+апр. 26, 2025 12:13:43 AM Game.tests.TestSystem TestMovingCounts
+FINE: Герой походил вправо вниз
+апр. 26, 2025 12:13:43 AM Game.tests.TestSystem TestMovingCounts
+INFO: Тест TestMovingCounts пройден
+апр. 26, 2025 12:13:43 AM Game.tests.TestSystem setParameters
+INFO: Начало инициализации тестовых данных
+апр. 26, 2025 12:13:43 AM Game.tests.TestSystem setParameters
+INFO: Инициализация тестовых данных завершена
+апр. 26, 2025 12:13:43 AM Game.tests.TestSystem readTextFromStandardInputStream
+INFO: Запуск теста readTextFromStandardInputStream
+апр. 26, 2025 12:13:43 AM Game.tests.TestSystem readTextFromStandardInputStream
+INFO: Тест readTextFromStandardInputStream завершен успешно
+апр. 26, 2025 12:13:43 AM Game.tests.TestSystem setParameters
+INFO: Начало инициализации тестовых данных
+апр. 26, 2025 12:13:43 AM Game.tests.TestSystem setParameters
+INFO: Инициализация тестовых данных завершена
+апр. 26, 2025 12:13:43 AM Game.tests.TestSystem isCafeWork
+INFO: Запуск теста isCafeWorkWork
+апр. 26, 2025 12:13:43 AM Game.tests.TestSystem isCafeWork
+FINE: Герой двигается вправо в кафе
+апр. 26, 2025 12:13:53 AM Game.tests.TestSystem isCafeWork
+INFO: Теста isCafeWork пройден
+апр. 26, 2025 12:13:53 AM Game.tests.TestSystem setParameters
+INFO: Начало инициализации тестовых данных
+апр. 26, 2025 12:13:53 AM Game.tests.TestSystem setParameters
+INFO: Инициализация тестовых данных завершена
+апр. 26, 2025 12:13:53 AM Game.tests.TestSystem TestPlaceAllUnits
+INFO: Запуск теста TestPlaceAllUnits
+апр. 26, 2025 12:13:53 AM Game.tests.TestSystem TestPlaceAllUnits
+FINE: Генерация карты боя с юнитами
+апр. 26, 2025 12:13:53 AM Game.tests.TestSystem TestPlaceAllUnits
+INFO: Тест TestPlaceAllUnits пройден
+апр. 26, 2025 12:13:53 AM Game.tests.TestSystem setParameters
+INFO: Начало инициализации тестовых данных
+апр. 26, 2025 12:13:53 AM Game.tests.TestSystem setParameters
+INFO: Инициализация тестовых данных завершена
+апр. 26, 2025 12:13:53 AM Game.tests.TestSystem TestIsBuyingHouse
+INFO: Запуск теста TestIsBuyingHouse
+апр. 26, 2025 12:13:53 AM Game.tests.TestSystem TestIsBuyingHouse
+FINE: Покупка поста для копейщика
+апр. 26, 2025 12:13:53 AM Game.tests.TestSystem TestIsBuyingHouse
+INFO: Тест TestIsBuyingHouse пройден
+апр. 26, 2025 12:13:53 AM Game.tests.TestSystem setParameters
+INFO: Начало инициализации тестовых данных
+апр. 26, 2025 12:13:53 AM Game.tests.TestSystem setParameters
+INFO: Инициализация тестовых данных завершена
+апр. 26, 2025 12:13:53 AM Game.tests.TestSystem TestIsBuyingUnits
+INFO: Запуск теста TestIsBuyingUnits
+апр. 26, 2025 12:13:53 AM Game.tests.TestSystem TestIsBuyingUnits
+FINE: Покупка поста для копейщика
+апр. 26, 2025 12:13:53 AM Game.tests.TestSystem TestIsBuyingUnits
+FINE: Покупка юнитов копейщиков
+апр. 26, 2025 12:13:53 AM Game.tests.TestSystem TestIsBuyingUnits
+INFO: Тест TestIsBuyingUnits пройден
+апр. 26, 2025 12:13:53 AM Game.tests.TestSystem setParameters
+INFO: Начало инициализации тестовых данных
+апр. 26, 2025 12:13:53 AM Game.tests.TestSystem setParameters
+INFO: Инициализация тестовых данных завершена
+апр. 26, 2025 12:13:53 AM Game.tests.TestSystem TestOutPut
+INFO: Запуск теста TestOutPut
+апр. 26, 2025 12:13:53 AM Game.tests.TestSystem TestOutPut
+FINE: Проверка вывода: Вы врезались в препятствие
+
+апр. 26, 2025 12:13:53 AM Game.tests.TestSystem TestOutPut
+INFO: Тест TestOutPut завершен успешно
+апр. 26, 2025 12:13:53 AM Game.tests.TestSystem setParameters
+INFO: Начало инициализации тестовых данных
+апр. 26, 2025 12:13:53 AM Game.tests.TestSystem setParameters
+INFO: Инициализация тестовых данных завершена
+апр. 26, 2025 12:13:53 AM Game.tests.TestSystem TestLogicHero
+INFO: Запуск теста TestLogicHero
+апр. 26, 2025 12:13:53 AM Game.tests.TestSystem TestLogicHero
+FINE: Герой заходит в здание
+апр. 26, 2025 12:13:53 AM Game.tests.TestSystem TestLogicHero
+INFO: Тест TestLogicHero пройден
+апр. 26, 2025 12:13:53 AM Game.tests.TestSystem setParameters
+INFO: Начало инициализации тестовых данных
+апр. 26, 2025 12:13:53 AM Game.tests.TestSystem setParameters
+INFO: Инициализация тестовых данных завершена
+апр. 26, 2025 12:13:53 AM Game.tests.TestSystem isHeroDie
+INFO: Запуск теста isHeroDie
+апр. 26, 2025 12:13:54 AM Game.tests.TestSystem isHeroDie
+INFO: Теста isHeroDie пройден
+апр. 26, 2025 12:13:54 AM Game.tests.TestSystem setParameters
+INFO: Начало инициализации тестовых данных
+апр. 26, 2025 12:13:54 AM Game.tests.TestSystem setParameters
+INFO: Инициализация тестовых данных завершена
+апр. 26, 2025 12:13:54 AM Game.tests.TestSystem friendlyFire
+INFO: Запуск теста friendlyFire
+апр. 26, 2025 12:13:54 AM Game.tests.TestSystem friendlyFire
+FINE: Генерация карты боя с юнитами
+апр. 26, 2025 12:13:55 AM Game.tests.TestSystem friendlyFire
+FINE: Юнит атакует своего юнита
+апр. 26, 2025 12:13:55 AM Game.tests.TestSystem friendlyFire
+INFO: Теста friendlyFire пройден
+апр. 26, 2025 12:13:55 AM Game.tests.TestSystem setParameters
+INFO: Начало инициализации тестовых данных
+апр. 26, 2025 12:13:55 AM Game.tests.TestSystem setParameters
+INFO: Инициализация тестовых данных завершена
+апр. 26, 2025 12:13:55 AM Game.tests.TestSystem TestRangeUnit
+INFO: Запуск теста TestRangeUnit
+апр. 26, 2025 12:13:55 AM Game.tests.TestSystem TestRangeUnit
+FINE: Генерация карты боя с юнитами
+апр. 26, 2025 12:13:55 AM Game.tests.TestSystem TestRangeUnit
+INFO: Теста TestRangeUnit пройден
+апр. 26, 2025 12:13:55 AM Game.tests.TestSystem setParameters
+INFO: Начало инициализации тестовых данных
+апр. 26, 2025 12:13:55 AM Game.tests.TestSystem setParameters
+INFO: Инициализация тестовых данных завершена
+апр. 26, 2025 12:13:55 AM Game.tests.TestSystem isHotelWork
+INFO: Запуск теста isHotelWork
+апр. 26, 2025 12:13:55 AM Game.tests.TestSystem isHotelWork
+FINE: Герой двигается вправо в отель
+апр. 26, 2025 12:14:01 AM Game.tests.TestSystem isHotelWork
+INFO: Теста isHotelWork пройден
+апр. 26, 2025 12:14:01 AM Game.tests.TestSystem setParameters
+INFO: Начало инициализации тестовых данных
+апр. 26, 2025 12:14:01 AM Game.tests.TestSystem setParameters
+INFO: Инициализация тестовых данных завершена
+апр. 26, 2025 12:14:01 AM Game.tests.TestSystem AllTowersIsYours
+INFO: Запуск теста AllTowersIsYours
+апр. 26, 2025 12:14:01 AM Game.tests.TestSystem AllTowersIsYours
+FINE: Проверка условия победы
+апр. 26, 2025 12:14:01 AM Game.tests.TestSystem AllTowersIsYours
+INFO: Тест AllTowersIsYours завершен успешно
+апр. 26, 2025 12:14:01 AM Game.tests.TestSystem setParameters
+INFO: Начало инициализации тестовых данных
+апр. 26, 2025 12:14:01 AM Game.tests.TestSystem setParameters
+INFO: Инициализация тестовых данных завершена
+апр. 26, 2025 12:14:01 AM Game.tests.TestSystem isScoresSaves
+INFO: Запуск теста isScoresSaves
+апр. 26, 2025 12:14:01 AM Game.tests.TestSystem isScoresSaves
+FINE: Чтение из файла
+апр. 26, 2025 12:14:01 AM Game.tests.TestSystem isScoresSaves
+FINE: Сохранение новых данных в файл
+апр. 26, 2025 12:14:01 AM Game.tests.TestSystem isScoresSaves
+FINE: Чтение из файла
+апр. 26, 2025 12:14:01 AM Game.tests.TestSystem isScoresSaves
+INFO: Теста isScoresSaves пройден
+апр. 26, 2025 12:14:01 AM Game.tests.TestSystem setParameters
+INFO: Начало инициализации тестовых данных
+апр. 26, 2025 12:14:01 AM Game.tests.TestSystem setParameters
+INFO: Инициализация тестовых данных завершена
+апр. 26, 2025 12:14:01 AM Game.tests.TestSystem IsUnitDie
+INFO: Запуск теста IsUnitDie
+апр. 26, 2025 12:14:01 AM Game.tests.TestSystem IsUnitDie
+FINE: Генерация карты боя с юнитами
+апр. 26, 2025 12:14:02 AM Game.tests.TestSystem IsUnitDie
+FINE: Юнит атакует чужого юнита
+апр. 26, 2025 12:14:02 AM Game.tests.TestSystem IsUnitDie
+INFO: Тест IsUnitDie пройден
+апр. 26, 2025 12:14:02 AM Game.tests.TestSystem setParameters
+INFO: Начало инициализации тестовых данных
+апр. 26, 2025 12:14:02 AM Game.tests.TestSystem setParameters
+INFO: Инициализация тестовых данных завершена
+апр. 26, 2025 12:14:02 AM Game.tests.TestSystem isSalonWork
+INFO: Запуск теста isSalonWork
+апр. 26, 2025 12:14:02 AM Game.tests.TestSystem isSalonWork
+FINE: Герой двигается вправо в парихмахерскую
+апр. 26, 2025 12:14:11 AM Game.tests.TestSystem isSalonWork
+INFO: Теста isSalonWork пройден
+апр. 26, 2025 12:14:11 AM Game.tests.TestSystem setParameters
+INFO: Начало инициализации тестовых данных
+апр. 26, 2025 12:14:11 AM Game.tests.TestSystem setParameters
+INFO: Инициализация тестовых данных завершена
+апр. 26, 2025 12:14:11 AM Game.tests.TestSystem TestIsBonusHuntDamagePickUP
+INFO: Запуск теста TestIsBonusHuntDamagePickUP
+апр. 26, 2025 12:14:11 AM Game.tests.TestSystem TestIsBonusHuntDamagePickUP
+FINE: Герой подбирает кабана
+апр. 26, 2025 12:14:12 AM Game.tests.TestSystem TestIsBonusHuntDamagePickUP
+INFO: Тест TestIsBonusHuntDamagePickUP пройден
+апр. 26, 2025 12:14:12 AM Game.tests.TestSystem setParameters
+INFO: Начало инициализации тестовых данных
+апр. 26, 2025 12:14:12 AM Game.tests.TestSystem setParameters
+INFO: Инициализация тестовых данных завершена
+апр. 26, 2025 12:14:12 AM Game.tests.TestSystem isBotCorrectMoving
+INFO: Запуск теста isBotCorrectMoving
+апр. 26, 2025 12:14:12 AM Game.tests.TestSystem isBotCorrectMoving
+FINE: Генерация карты боя с юнитами
+апр. 26, 2025 12:14:12 AM Game.tests.TestSystem isBotCorrectMoving
+FINE: Ход врага
+апр. 26, 2025 12:14:13 AM Game.tests.TestSystem isBotCorrectMoving
+INFO: Теста isBotCorrectMoving пройден
+апр. 26, 2025 12:14:13 AM Game.tests.TestSystem setParameters
+INFO: Начало инициализации тестовых данных
+апр. 26, 2025 12:14:13 AM Game.tests.TestSystem setParameters
+INFO: Инициализация тестовых данных завершена
+апр. 26, 2025 12:14:13 AM Game.tests.TestSystem AllTowersIsComp
+INFO: Запуск теста AllTowersIsComp
+апр. 26, 2025 12:14:13 AM Game.tests.TestSystem AllTowersIsComp
+FINE: Проверка условия поражения
+апр. 26, 2025 12:14:13 AM Game.tests.TestSystem AllTowersIsComp
+INFO: Тест AllTowersIsComp завершен успешно
+апр. 26, 2025 12:14:13 AM Game.tests.TestSystem setParameters
+INFO: Начало инициализации тестовых данных
+апр. 26, 2025 12:14:13 AM Game.tests.TestSystem setParameters
+INFO: Инициализация тестовых данных завершена
+апр. 26, 2025 12:14:13 AM Game.tests.TestSystem TestIsBonusHuntSpeedPickUP
+INFO: Запуск теста TestIsBonusHuntSpeedPickUP
+апр. 26, 2025 12:14:13 AM Game.tests.TestSystem TestIsBonusHuntSpeedPickUP
+FINE: Герой подбирает подковы
+апр. 26, 2025 12:14:13 AM Game.tests.TestSystem TestIsBonusHuntSpeedPickUP
+INFO: Тест TestIsBonusHuntSpeedPickUP пройден
+апр. 26, 2025 12:14:13 AM Game.tests.TestSystem setParameters
+INFO: Начало инициализации тестовых данных
+апр. 26, 2025 12:14:13 AM Game.tests.TestSystem setParameters
+INFO: Инициализация тестовых данных завершена
+апр. 26, 2025 12:14:13 AM Game.tests.TestSystem isMapSaving
+INFO: Запуск теста isMapSaving
+апр. 26, 2025 12:14:13 AM Game.tests.TestSystem isMapSaving
+FINE: Герой двигается вправо вниз
+апр. 26, 2025 12:14:14 AM Game.tests.TestSystem isMapSaving
+FINE: Сохранение в файл
+апр. 26, 2025 12:14:14 AM Game.tests.TestSystem isMapSaving
+FINE: Чтение из файла
+апр. 26, 2025 12:14:14 AM Game.tests.TestSystem isMapSaving
+INFO: Теста isMapSaving пройден
+апр. 26, 2025 12:14:14 AM Game.tests.TestSystem setParameters
+INFO: Начало инициализации тестовых данных
+апр. 26, 2025 12:14:14 AM Game.tests.TestSystem setParameters
+INFO: Инициализация тестовых данных завершена
+апр. 26, 2025 12:14:14 AM Game.tests.TestSystem TestIsBonusHuntGoldPickUP
+INFO: Запуск теста TestIsBonusHuntGoldPickUP
+апр. 26, 2025 12:14:14 AM Game.tests.TestSystem TestIsBonusHuntGoldPickUP
+FINE: Герой подбирает монеты
+апр. 26, 2025 12:14:14 AM Game.tests.TestSystem TestIsBonusHuntGoldPickUP
+INFO: Тест TestIsBonusHuntGoldPickUP пройден
